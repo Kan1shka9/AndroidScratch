@@ -36,10 +36,13 @@ and@PT:~/android-sdk-linux/build-tools/23.0.2$ file dx
 dx: Bourne-Again shell script, ASCII text executable
 ```
 
-###### Location of APK file :-
+###### Obtaining the APK file :-
 * Pre installed applications
   * Location -> /system/app
 <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/5.PNG)
 * User installed applications
   * Location -> /data/app
 <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/6.PNG)
+* Get the APK from the device
+ * List available packages -> <i>./adb shell pm list packages -f</i>
+  <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/7.PNG)
