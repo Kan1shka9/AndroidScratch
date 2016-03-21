@@ -1,19 +1,19 @@
 ## Android Reversing
 
-###### Android Application packaging formats :-
+###### Android application packaging formats :-
 * APK
 * AAR
 
-###### Tools for reversing
+###### Tools for reversing :-
 * aapt
 * dex2jar
 * apktool
 * Androguard
 
-###### Rename the APK to ZIP
+###### Rename the APK to ZIP :-
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/1.PNG)
 
-###### Anatomy
+###### Anatomy :-
 * <b><i>AndroidManifest.xml</i></b>	-> Manifest file in binary XML format which specifies permissions
 * <b><i>classes.dex</i></b>	-> application code compiled into dex format
 * <b><i>resources.arsc</i></b> -> application resources precompiles in binary XML format
