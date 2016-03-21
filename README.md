@@ -74,3 +74,9 @@ Binary distribution of an android library project
 * Used to extract information from the APK
 
 ###### Contents of APK file :-
+```./aapt list -v diva-beta.apk```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/10.PNG)
+
+###### Obtain more details :-
+```./aapt dump badging diva-beta.apk```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/11.PNG)
