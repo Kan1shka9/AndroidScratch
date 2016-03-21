@@ -67,3 +67,8 @@ Binary distribution of an android library project
 * <b><i>jni//*.so</i></b> -> [optional folder] Contains native libraries
 * <b><i>proguard.txt</i></b> -> [optional file]	Proguard configuration file.
 * <b><i>lint.jar</i></b> ->	[optional file]	Custom Lint rules.
+
+##### AADT - Android Asset Packaging Tool
+* Used to compile resources into binary assets.
+* Allows you to view, create, and update Zip-compatible archives (zip, jar, apk)
+* Used to extract information from the APK
