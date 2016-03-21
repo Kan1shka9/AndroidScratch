@@ -46,9 +46,9 @@ dx: Bourne-Again shell script, ASCII text executable
   * Location -> /data/app
 <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/6.PNG)
 * Get the APK from the device
- * List available packages -> <i>./adb shell pm list packages -f</i>
+ * List available packages -> ```./adb shell pm list packages -f```
   <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/7.PNG)
- * Get the apk -> <i>./adb pull -p /data/app/org.owasp.goatdroid.fourgoats-1.apk output.apk</i>
+ * Get the apk -> ```./adb pull -p /data/app/org.owasp.goatdroid.fourgoats-1.apk output.apk```
   <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/8.PNG)
 
 ##### AAR
@@ -72,3 +72,5 @@ Binary distribution of an android library project
 * Used to compile resources into binary assets.
 * Allows you to view, create, and update Zip-compatible archives (zip, jar, apk)
 * Used to extract information from the APK
+
+###### Contents of APK file :-
