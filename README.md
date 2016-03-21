@@ -56,3 +56,14 @@ Binary distribution of an android library project
 
 ###### Rename the AAR to ZIP :-
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/9.PNG)
+
+###### Anatomy :-
+* <b><i>AndroidManifest.xml</i></b>	-> Manifest file in plain XML format
+* <b><i>classes.jar</i></b> -> Java classes of the library
+* <b><i>res/</i></b>	-> Contains resources used by the library
+* <b><i>R.txt</i></b> -> Output of aapt with --output-text-symbols. List of all resources referenced by the library
+* <b><i>assets/</i></b> -> [optional folder] Contains assets used by the libraries
+* <b><i>libs/*.jar</i></b>	-> [optional folder] Contains external libraries
+* <b><i>jni//*.so</i></b> -> [optional folder] Contains native libraries
+* <b><i>proguard.txt</i></b> -> [optional file]	Proguard configuration file.
+* <b><i>lint.jar</i></b> ->	[optional file]	Custom Lint rules.
