@@ -46,3 +46,5 @@ dx: Bourne-Again shell script, ASCII text executable
 * Get the APK from the device
  * List available packages -> <i>./adb shell pm list packages -f</i>
   <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/7.PNG)
+ * Get the apk -> <i>./adb pull -p /data/app/org.owasp.goatdroid.fourgoats-1.apk output.apk</i>
+  <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/8.PNG)
