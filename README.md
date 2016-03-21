@@ -38,8 +38,8 @@ dx: Bourne-Again shell script, ASCII text executable
 
 ###### Location of APK file :-
 * Pre installed applications
-Location -> /system/app
+  * Location -> /system/app
 <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/5.PNG)
 * User installed applications
-Location -> /data/app
+  * Location -> /data/app
 <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/6.PNG)
