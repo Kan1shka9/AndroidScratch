@@ -27,3 +27,19 @@
   * CERT.RSA -> Certificate of the application
   * CERT.SF -> Contains the list of resources and SHA-1 digest of the corresponding lines in the MANIFEST.MF file
 * <b><i>assets/</i></b>	-> [optional folder] Contains applications assets which can be retrieved by AssetManager.
+
+###### DEX (dalvik executable) :-
+- Complied code which can be interpreted by Dalvik virtual machine or Android Runtime (ART).
+- .java --(javac)--> .class --(dx)--> class.dex
+```
+and@PT:~/android-sdk-linux/build-tools/23.0.2$ file dx
+dx: Bourne-Again shell script, ASCII text executable
+```
+
+###### Location of APK file :-
+* Pre installed applications
+Location -> /system/app
+<br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/5.PNG)
+* User installed applications
+Location -> /data/app
+<br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/6.PNG)
