@@ -14,7 +14,7 @@
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/1.PNG)
 
 ###### Anatomy
-* <b><i>AndroidManifest.xml</i></b>	-> Manifest file in binary XML format and also specifies permissions
+* <b><i>AndroidManifest.xml</i></b>	-> Manifest file in binary XML format which specifies permissions
 * <b><i>classes.dex</i></b>	-> application code compiled into dex format
 * <b><i>resources.arsc</i></b> -> application resources precompiles in binary XML format
 * <b><i>res/</i></b> -> folder contains resources not compiled into resources.arsc
