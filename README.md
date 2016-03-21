@@ -10,6 +10,8 @@
 * apktool
 * Androguard
 
+##### APK
+
 ###### Rename the APK to ZIP :-
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/1.PNG)
 
@@ -48,3 +50,9 @@ dx: Bourne-Again shell script, ASCII text executable
   <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/7.PNG)
  * Get the apk -> <i>./adb pull -p /data/app/org.owasp.goatdroid.fourgoats-1.apk output.apk</i>
   <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/8.PNG)
+
+##### AAR
+Binary distribution of an android library project
+
+###### Rename the AAR to ZIP :-
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/9.PNG)
