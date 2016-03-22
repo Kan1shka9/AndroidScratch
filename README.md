@@ -115,3 +115,12 @@ Binary distribution of an android library project
 ```./d2j-jar2dex.sh -f -o class.dex class.jar```
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/18.PNG)
+
+###### Limitation
+APK is a ZIP file so the files can be repackaged
+We have to sign it with jarsigner to regenerate MANIFEST.MF
+But a new APK can't be released as an update to the original as we do not have access to the keystore and private key
+While performing an update the the system compares the certificate in the new version with that of the existing version
+
+###### SMALI
+Converts classes.dex to .smali files
