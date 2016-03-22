@@ -129,3 +129,7 @@ Converts classes.dex to .smali files
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/19.PNG)
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/20.PNG)
+
+##### apktool
+* Decode the apk
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/21.PNG)
