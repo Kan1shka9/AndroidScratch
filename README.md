@@ -134,7 +134,14 @@ Converts classes.dex to .smali files
 * Decode the apk
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/21.PNG)
-  * apktool.yml - Contains info about the apk
+  * apktool.yml - Contains info about the apk <br>
   ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/22.PNG)
   * AndroidManifest.xml - Plain XML format
   ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/23.PNG)
+  * original/ - Files are directly copied from the apk <br>
+  ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/24.PNG)
+  * smali/ - Contains the application source code in smali format
+  * res/ - Contains the resources which are decoded
+
+* Build the apk
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/25.PNG)
