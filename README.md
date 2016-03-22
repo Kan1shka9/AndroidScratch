@@ -146,4 +146,5 @@ Converts classes.dex to .smali files
 * Build the apk
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/25.PNG)
+<br>
 The apk can't be install as it is not yet signed so it has to be signed using jarsigner
