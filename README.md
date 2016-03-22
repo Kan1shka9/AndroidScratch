@@ -151,11 +151,13 @@ The apk can't be install as it is not yet signed so it has to be signed using ja
 
 ##### androguard-2.0
 * APK Analysis
+<br>
 ```a,d,dx = AnalyzeAPK("diva-beta.apk", decompiler="dad")```
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/26.PNG)
 
 * List files in the APK
+<br>
 ```a.get_files()```
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/27.PNG)
