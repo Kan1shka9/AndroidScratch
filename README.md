@@ -90,3 +90,11 @@ Binary distribution of an android library project
 ###### Extract configurations in the APK file :-
 ```./aapt dump configurations diva-beta.apk```
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/13.PNG)
+
+###### Extract resource table from the APK file :-
+```./aapt dump resources diva-beta.apk```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/14.PNG)
+
+###### View the AndroidManifest.xml :-
+```./aapt dump xmltree diva-beta.apk AndroidManifest.xml```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/15.PNG)
