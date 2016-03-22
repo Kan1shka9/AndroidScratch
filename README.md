@@ -199,10 +199,19 @@ a.get_signature()
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/34.PNG)
 
 * Dump code
-```
-androdd.py -i diva-beta.apk -o output
-```
+```androdd.py -i diva-beta.apk -o output```
     - Output is java class
     - Java classes are organized by package name
     - Readable
     ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/35.PNG)
+
+* Extract Manifest file
+```androaxml.py -i diva-beta.apk -o OUTPUT.xml```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/36.PNG)
+
+* Compare 2 APK files
+```
+androsim.py -i diva-beta.apk diva-beta.apk -c ZLIB -n
+androsim.py -i diva-beta.apk diva-beta_mod.apk -c ZLIB -n
+```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/37.PNG)
