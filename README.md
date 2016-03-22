@@ -68,7 +68,7 @@ Binary distribution of an android library project
 * <b><i>proguard.txt</i></b> -> [optional file]	Proguard configuration file.
 * <b><i>lint.jar</i></b> ->	[optional file]	Custom Lint rules.
 
-##### AADT - Android Asset Packaging Tool
+##### AAPT - Android Asset Packaging Tool
 * Used to compile resources into binary assets.
 * Allows you to view, create, and update Zip-compatible archives (zip, jar, apk)
 * Used to extract information from the APK
@@ -98,3 +98,12 @@ Binary distribution of an android library project
 ###### View the AndroidManifest.xml :-
 ```./aapt dump xmltree diva-beta.apk AndroidManifest.xml```
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/15.PNG)
+
+##### dex2jar
+* Java decompiler
+* Used to convert class files to jar files
+```./d2j-dex2jar.sh -f -o class.jar diva-beta.apk```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/16.PNG)
+
+###### View the pseudo source code using JD-GUI :-
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/17.PNG)
