@@ -110,3 +110,8 @@ Binary distribution of an android library project
 ```java -jar jd-gui-1.4.0.jar dex2jar-2.0/class.jar```
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/17.PNG)
+
+###### Convert JAR back to DEX :-
+```./d2j-jar2dex.sh -f -o class.dex class.jar```
+<br>
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/18.PNG)
