@@ -149,7 +149,7 @@ Converts classes.dex to .smali files
 <br>
 The apk can't be install as it is not yet signed so it has to be signed using jarsigner
 
-##### androguard-2.0
+##### androguard
 * APK Analysis
 <br>
 ```a,d,dx = AnalyzeAPK("diva-beta.apk", decompiler="dad")```
@@ -157,7 +157,7 @@ The apk can't be install as it is not yet signed so it has to be signed using ja
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/26.PNG)
 
 * List files in the APK
-<br>
-```a.get_files()```
-<br>
+```
+a.get_files()
+```
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/27.PNG)
