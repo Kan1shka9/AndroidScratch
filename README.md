@@ -144,4 +144,5 @@ Converts classes.dex to .smali files
   * res/ - Contains the resources which are decoded
 
 * Build the apk
+<br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/25.PNG)
