@@ -128,3 +128,4 @@ Converts classes.dex to .smali files
 ```./d2j-dex2smali.sh diva-beta.apk```
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/19.PNG)
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/20.PNG)
