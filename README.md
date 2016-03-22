@@ -197,3 +197,12 @@ a.get_signature()
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/33.PNG)
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/34.PNG)
+
+* Dump code
+```
+androdd.py -i diva-beta.apk -o output
+```
+    - Output is java class
+    - Java classes are organized by package name
+    - Readable
+    ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/35.PNG)
