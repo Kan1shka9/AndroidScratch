@@ -124,3 +124,6 @@ While performing an update the the system compares the certificate in the new ve
 
 ###### SMALI
 Converts classes.dex to .smali files
+<br>
+```./d2j-dex2smali.sh diva-beta.apk```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/19.PNG)
