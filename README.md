@@ -164,3 +164,36 @@ a,d,dx = AnalyzeAPK("diva-beta.apk", decompiler="dad")
 a.get_files()
 ```
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/27.PNG)
+
+* List activities of the application
+```
+a.get_activities()
+```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/28.PNG)
+
+* List permissions of the application
+```
+a.get_permissions()
+a.get_requested_aosp_permissions_details()
+show_Permissions(dx)
+```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/29.PNG)
+<br>
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/30.PNG)
+<br>
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/31.PNG)
+
+* List content providers
+```
+a.get_providers()
+```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/32.PNG)
+
+* List signature name and signature
+```
+a.get_signature_name()
+a.get_signature()
+```
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/33.PNG)
+<br>
+![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/34.PNG)
