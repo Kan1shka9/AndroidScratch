@@ -150,7 +150,7 @@ Converts classes.dex to .smali files
 The apk can't be install as it is not yet signed so it has to be signed using jarsigner
 
 ##### androguard
-* APK Analysis
+###### APK Analysis :-
 <br>
 ```
 androlyze.py -s
@@ -159,19 +159,19 @@ a,d,dx = AnalyzeAPK("diva-beta.apk", decompiler="dad")
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/26.PNG)
 
-* List files in the APK
+###### List files in the APK :-
 ```
 a.get_files()
 ```
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/27.PNG)
 
-* List activities of the application
+###### List activities of the application :-
 ```
 a.get_activities()
 ```
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/28.PNG)
 
-* List permissions of the application
+###### List permissions of the application :-
 ```
 a.get_permissions()
 a.get_requested_aosp_permissions_details()
@@ -183,13 +183,13 @@ show_Permissions(dx)
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/31.PNG)
 
-* List content providers
+######  List content providers :-
 ```
 a.get_providers()
 ```
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/32.PNG)
 
-* List signature name and signature
+###### List signature name and signature :-
 ```
 a.get_signature_name()
 a.get_signature()
@@ -198,18 +198,18 @@ a.get_signature()
 <br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/34.PNG)
 
-* Dump code
+###### Dump code :-
 ```androdd.py -i diva-beta.apk -o output```
     - Output is java class
     - Java classes are organized by package name
     - Readable
     ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/35.PNG)
 
-* Extract Manifest file
+###### Extract Manifest file :-
 ```androaxml.py -i diva-beta.apk -o OUTPUT.xml```
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/36.PNG)
 
-* Compare 2 APK files
+###### Compare 2 APK files :-
 ```
 androsim.py -i diva-beta.apk diva-beta.apk -c ZLIB -n
 androsim.py -i diva-beta.apk diva-beta_mod.apk -c ZLIB -n
