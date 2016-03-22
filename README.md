@@ -46,9 +46,9 @@ dx: Bourne-Again shell script, ASCII text executable
   * Location - /data/app
 <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/6.PNG)
 * Get the APK from the device
- * List available packages - ```./adb shell pm list packages -f```
+ * List available packages - <br>```./adb shell pm list packages -f```
   <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/7.PNG)
- * Get the apk - ```./adb pull -p /data/app/org.owasp.goatdroid.fourgoats-1.apk output.apk```
+ * Get the apk - <br>```./adb pull -p /data/app/org.owasp.goatdroid.fourgoats-1.apk output.apk```
   <br>![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/8.PNG)
 
 ##### AAR
@@ -107,4 +107,6 @@ Binary distribution of an android library project
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/16.PNG)
 
 ###### View the pseudo source code using JD-GUI :-
+```java -jar jd-gui-1.4.0.jar dex2jar-2.0/class.jar```
+<br>
 ![Alt text](https://github.com/Kan1shka9/AndroidScratch/blob/master/images/17.PNG)
